@@ -7,12 +7,13 @@ angular.module('myApp.controllers')
 
         $scope.contactinfo = {
             FirstName: '',
-            LastName:'',
+            LastName: '',
             PhoneNumber:'',
             Email:'',
             Comments:'',
             Birthdate:'',
             Gender:''
+
         };
         $scope.contactMe = function(widget){
             console.log(widget);
